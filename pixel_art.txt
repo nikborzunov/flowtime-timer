@@ -207,3 +207,4 @@ Year 1997, pixel row:6 col:1
 Year 1997, pixel row:6 col:2
 Year 1997, pixel row:6 col:3
 Year 1997, pixel row:6 col:7
+Year 1997, pixel row:6 col:8
