@@ -510,3 +510,4 @@ Year 2000, pixel row:3 col:0
 Year 2000, pixel row:3 col:2
 Year 2000, pixel row:3 col:3
 Year 2000, pixel row:3 col:4
+Year 2000, pixel row:3 col:6
