@@ -919,3 +919,4 @@ Year 2003, pixel row:6 col:44
 Year 2003, pixel row:6 col:45
 Year 2003, pixel row:6 col:46
 Year 2004, pixel row:0 col:1
+Year 2004, pixel row:0 col:2
