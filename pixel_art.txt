@@ -800,3 +800,4 @@ Year 2002, pixel row:6 col:38
 Year 2002, pixel row:6 col:39
 Year 2002, pixel row:6 col:42
 Year 2002, pixel row:6 col:43
+Year 2002, pixel row:6 col:44
