@@ -135,3 +135,4 @@ Year 1997, pixel row:0 col:39
 Year 1997, pixel row:0 col:42
 Year 1997, pixel row:0 col:43
 Year 1997, pixel row:0 col:44
+Year 1997, pixel row:0 col:45
