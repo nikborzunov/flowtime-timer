@@ -398,3 +398,4 @@ Year 1999, pixel row:3 col:4
 Year 1999, pixel row:3 col:6
 Year 1999, pixel row:3 col:10
 Year 1999, pixel row:3 col:12
+Year 1999, pixel row:3 col:16
