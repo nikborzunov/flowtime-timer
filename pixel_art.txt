@@ -33,3 +33,4 @@ Year 1996, pixel row:1 col:28
 Year 1996, pixel row:1 col:30
 Year 1996, pixel row:1 col:34
 Year 1996, pixel row:1 col:36
+Year 1996, pixel row:1 col:40
