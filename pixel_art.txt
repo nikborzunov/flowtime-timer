@@ -267,3 +267,4 @@ Year 1998, pixel row:1 col:40
 Year 1998, pixel row:1 col:42
 Year 1998, pixel row:2 col:0
 Year 1998, pixel row:2 col:6
+Year 1998, pixel row:2 col:10
