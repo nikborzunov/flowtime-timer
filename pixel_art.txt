@@ -57,3 +57,4 @@ Year 1996, pixel row:3 col:16
 Year 1996, pixel row:3 col:24
 Year 1996, pixel row:3 col:30
 Year 1996, pixel row:3 col:34
+Year 1996, pixel row:3 col:36
