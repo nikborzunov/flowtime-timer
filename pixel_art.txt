@@ -782,3 +782,4 @@ Year 2002, pixel row:6 col:1
 Year 2002, pixel row:6 col:2
 Year 2002, pixel row:6 col:3
 Year 2002, pixel row:6 col:7
+Year 2002, pixel row:6 col:8
