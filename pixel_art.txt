@@ -867,3 +867,4 @@ Year 2003, pixel row:3 col:40
 Year 2003, pixel row:3 col:42
 Year 2003, pixel row:3 col:43
 Year 2003, pixel row:3 col:44
+Year 2003, pixel row:3 col:45
