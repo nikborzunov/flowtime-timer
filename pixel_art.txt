@@ -989,3 +989,4 @@ Year 2004, pixel row:4 col:6
 Year 2004, pixel row:4 col:10
 Year 2004, pixel row:4 col:12
 Year 2004, pixel row:4 col:16
+Year 2004, pixel row:4 col:24
