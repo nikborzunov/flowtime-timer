@@ -687,3 +687,4 @@ Year 2001, pixel row:6 col:42
 Year 2001, pixel row:6 col:43
 Year 2001, pixel row:6 col:44
 Year 2001, pixel row:6 col:45
+Year 2001, pixel row:6 col:46
