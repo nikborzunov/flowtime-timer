@@ -697,3 +697,4 @@ Year 2002, pixel row:0 col:12
 Year 2002, pixel row:0 col:13
 Year 2002, pixel row:0 col:14
 Year 2002, pixel row:0 col:15
+Year 2002, pixel row:0 col:25
