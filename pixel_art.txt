@@ -1065,3 +1065,4 @@ Year 2005, pixel row:1 col:12
 Year 2005, pixel row:1 col:16
 Year 2005, pixel row:1 col:24
 Year 2005, pixel row:1 col:28
+Year 2005, pixel row:1 col:30
