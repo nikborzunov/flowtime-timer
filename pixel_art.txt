@@ -1118,3 +1118,4 @@ Year 2005, pixel row:5 col:12
 Year 2005, pixel row:5 col:16
 Year 2005, pixel row:5 col:24
 Year 2005, pixel row:5 col:28
+Year 2005, pixel row:5 col:30
