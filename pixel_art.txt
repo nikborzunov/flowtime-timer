@@ -1206,3 +1206,4 @@ Year 2006, pixel row:3 col:12
 Year 2006, pixel row:3 col:16
 Year 2006, pixel row:3 col:24
 Year 2006, pixel row:3 col:30
+Year 2006, pixel row:3 col:34
