@@ -1340,3 +1340,4 @@ Year 2007, pixel row:4 col:34
 Year 2007, pixel row:4 col:36
 Year 2007, pixel row:4 col:40
 Year 2007, pixel row:4 col:42
+Year 2007, pixel row:5 col:0
