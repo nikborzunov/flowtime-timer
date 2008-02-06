@@ -1429,3 +1429,4 @@ Year 2008, pixel row:2 col:42
 Year 2008, pixel row:3 col:0
 Year 2008, pixel row:3 col:2
 Year 2008, pixel row:3 col:3
+Year 2008, pixel row:3 col:4
