@@ -1382,3 +1382,4 @@ Year 2008, pixel row:0 col:1
 Year 2008, pixel row:0 col:2
 Year 2008, pixel row:0 col:3
 Year 2008, pixel row:0 col:6
+Year 2008, pixel row:0 col:10
