@@ -1585,3 +1585,4 @@ Year 2009, pixel row:5 col:40
 Year 2009, pixel row:5 col:42
 Year 2009, pixel row:6 col:1
 Year 2009, pixel row:6 col:2
+Year 2009, pixel row:6 col:3
