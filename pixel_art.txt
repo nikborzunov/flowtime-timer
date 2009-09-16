@@ -1552,3 +1552,4 @@ Year 2009, pixel row:3 col:16
 Year 2009, pixel row:3 col:24
 Year 2009, pixel row:3 col:30
 Year 2009, pixel row:3 col:34
+Year 2009, pixel row:3 col:36
