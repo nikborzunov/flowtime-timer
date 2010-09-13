@@ -1642,3 +1642,4 @@ Year 2010, pixel row:1 col:24
 Year 2010, pixel row:1 col:28
 Year 2010, pixel row:1 col:30
 Year 2010, pixel row:1 col:34
+Year 2010, pixel row:1 col:36
