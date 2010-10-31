@@ -1628,3 +1628,4 @@ Year 2010, pixel row:0 col:37
 Year 2010, pixel row:0 col:38
 Year 2010, pixel row:0 col:39
 Year 2010, pixel row:0 col:42
+Year 2010, pixel row:0 col:43
