@@ -1782,3 +1782,4 @@ Year 2011, pixel row:3 col:16
 Year 2011, pixel row:3 col:24
 Year 2011, pixel row:3 col:30
 Year 2011, pixel row:3 col:34
+Year 2011, pixel row:3 col:36
