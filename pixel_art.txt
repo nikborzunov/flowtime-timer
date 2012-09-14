@@ -1925,3 +1925,4 @@ Year 2012, pixel row:5 col:24
 Year 2012, pixel row:5 col:28
 Year 2012, pixel row:5 col:30
 Year 2012, pixel row:5 col:34
+Year 2012, pixel row:5 col:36
