@@ -1873,3 +1873,4 @@ Year 2012, pixel row:1 col:28
 Year 2012, pixel row:1 col:30
 Year 2012, pixel row:1 col:34
 Year 2012, pixel row:1 col:36
+Year 2012, pixel row:1 col:40
