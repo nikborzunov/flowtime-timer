@@ -1956,3 +1956,4 @@ Year 2012, pixel row:6 col:46
 Year 2013, pixel row:0 col:1
 Year 2013, pixel row:0 col:2
 Year 2013, pixel row:0 col:3
+Year 2013, pixel row:0 col:6
