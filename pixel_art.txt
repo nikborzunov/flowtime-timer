@@ -2042,3 +2042,4 @@ Year 2013, pixel row:5 col:30
 Year 2013, pixel row:5 col:34
 Year 2013, pixel row:5 col:36
 Year 2013, pixel row:5 col:40
+Year 2013, pixel row:5 col:42
