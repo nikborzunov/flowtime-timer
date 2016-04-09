@@ -2395,3 +2395,4 @@ Year 2016, pixel row:6 col:7
 Year 2016, pixel row:6 col:8
 Year 2016, pixel row:6 col:9
 Year 2016, pixel row:6 col:12
+Year 2016, pixel row:6 col:13
