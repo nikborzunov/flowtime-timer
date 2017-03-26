@@ -2418,3 +2418,4 @@ Year 2017, pixel row:0 col:2
 Year 2017, pixel row:0 col:3
 Year 2017, pixel row:0 col:6
 Year 2017, pixel row:0 col:10
+Year 2017, pixel row:0 col:12
