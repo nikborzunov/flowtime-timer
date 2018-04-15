@@ -2535,3 +2535,4 @@ Year 2018, pixel row:0 col:6
 Year 2018, pixel row:0 col:10
 Year 2018, pixel row:0 col:12
 Year 2018, pixel row:0 col:13
+Year 2018, pixel row:0 col:14
