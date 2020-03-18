@@ -2811,3 +2811,4 @@ Year 2020, pixel row:3 col:2
 Year 2020, pixel row:3 col:3
 Year 2020, pixel row:3 col:4
 Year 2020, pixel row:3 col:6
+Year 2020, pixel row:3 col:10
