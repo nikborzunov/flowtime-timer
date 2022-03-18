@@ -3068,3 +3068,4 @@ Year 2022, pixel row:4 col:42
 Year 2022, pixel row:5 col:0
 Year 2022, pixel row:5 col:4
 Year 2022, pixel row:5 col:6
+Year 2022, pixel row:5 col:10
