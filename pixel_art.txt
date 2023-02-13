@@ -3129,3 +3129,4 @@ Year 2023, pixel row:0 col:45
 Year 2023, pixel row:0 col:46
 Year 2023, pixel row:1 col:0
 Year 2023, pixel row:1 col:4
+Year 2023, pixel row:1 col:6
