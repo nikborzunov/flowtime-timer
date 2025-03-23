@@ -1,0 +1,35 @@
+{
+  "name": "telegramflowtime",
+  "version": "1.0.0",
+  "description": "FlowTime telegram bot timer. Work 80% and 20% rest reminder",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nikborzunov/flowtime-timer.git"
+  },
+  "keywords": [
+    "flowtime",
+    "telegram",
+    "bot"
+  ],
+  "author": "nikborzunov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikborzunov/flowtime-timer/issues"
+  },
+  "homepage": "https://github.com/nikborzunov/flowtime-timer#readme",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "node-localstorage": "^2.2.1",
+    "node-telegram-bot-api": "^0.56.0",
+    "tcharts.js": "^0.0.4"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.56.0"
+  }
+}

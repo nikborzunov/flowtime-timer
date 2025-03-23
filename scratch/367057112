@@ -1,0 +1,16 @@
+{
+  "byDayStats": {
+    "2022-04-17": {
+      "restTime": 1684,
+      "restCount": 31,
+      "workTime": 3878,
+      "workCount": 3,
+      "idleTime": 14479,
+      "idleCount": 3
+    }
+  },
+  "startTime": "2022-04-17T15:40:37.809Z",
+  "restStartTime": "2022-04-17T11:11:35.872Z",
+  "restEndTime": "2022-04-17T11:27:43.872Z",
+  "idleStartTime": "2022-04-17T11:39:38.502Z"
+}
