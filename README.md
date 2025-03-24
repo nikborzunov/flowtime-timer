@@ -1,105 +1,71 @@
-```markdown
-# ⏳ Telegram Flowtime Timer Bot (State Machine)
+# Telegram Flowtime Timer Bot
 
-[![built-with](https://img.shields.io/badge/Built%20with-TypeScript-blue.svg)](https://www.typescriptlang.org/)
-[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://core.telegram.org/bots/api)
+[![Built with TypeScript](https://img.shields.io/badge/Built%20with-TypeScript-blue.svg)](https://www.typescriptlang.org/)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://core.telegram.org/bots/api)
 
-> **A smart Telegram bot implementing a Flowtime technique timer (80% work / 20% rest)**
+A smart Telegram bot implementing the Flowtime Technique—automatically tracking productive sessions and scheduling rest breaks (approximately 80% work / 20% rest).
 
-## 💡 What is the Flowtime Technique?
+## What Is the Flowtime Technique?
 
-Flowtime is a productivity technique similar to Pomodoro, but flexible. Instead of fixed intervals, it adapts rest times according to the productive work session duration, typically suggesting about 20–25% rest. This makes your productivity sessions dynamic, personalized, and effective.
+Flowtime is a flexible productivity method similar to Pomodoro but without rigid time blocks. Instead, it adapts rest intervals based on your work duration, making sessions dynamic, personalized, and efficient.
 
-## 🤖 What Does This Bot Do?
+## Bot Features
 
-This Telegram bot implements the Flowtime method automatically:
+- Automatically tracks work sessions and calculates optimal break times.
+- Sends real-time timer updates directly in Telegram.
+- Persists daily session data using local storage.
+- Displays ASCII charts illustrating work, rest, and idle time.
+- Provides intuitive commands (`start`, `end`, `idle`, `status`, `reset`) through Telegram’s interface.
 
-- **Tracks your productive time and automatically calculates optimal rest breaks**
-- Provides real-time timer updates directly in Telegram
-- Saves daily session data persistently using local storage
-- Displays visual ASCII-style charts of work vs rest vs idle time
-- Offers intuitive commands (`start`, `end`, `idle`, `status`, `reset`) accessible directly via keyboard in Telegram chat
+## Finite State Machine
 
-## 📌 State Machine Pattern (Finite State Machine)
+The bot is engineered using the Finite State Machine (FSM) pattern, defining explicit states and transitions to ensure a robust workflow:
 
-### Overview
+- **Work**: Active productive session. Transitions to Rest or Idle.
+- **Rest**: Break period calculated from work duration. Transitions back to Work or Idle.
+- **Idle**: Paused state; can resume work at any time.
 
-This bot is based on the **Finite State Machine (FSM)** pattern, enhancing clarity, maintainability, and reliability. Each behavioral state (`work`, `rest`, and `idle`) has explicitly defined behaviors and allowed transitions, which helps accurately control session flow and prevents state conflicts.
+Each state features dedicated entry and exit actions, leading to cleaner logic and easier maintenance.
 
-### States and Transitions
+## Technologies
 
-The bot consists of three main states:
+- TypeScript
+- Telegram Bot API
+- Moment & moment-duration-format (for time formatting)
+- LocalStorage (persistent data storage)
+- tcharts.js (ASCII data visualization in Telegram)
 
-- **`work`**: The user is actively engaging in a productive session.  
-  ➡️ Can transition to → `rest` or `idle`
-  
-- **`rest`**: Calculated based on previous work period (typically about 20–25% of work duration).  
-  ➡️ Can transition to → `work` or `idle`
+## Installation
 
-- **`idle`**: Pause without specific activity timer; freely transitions back to productive mode.  
-  ➡️ Can transition to → `work`
+1. Clone the repository and install dependencies:
+   ```bash
+   git clone https://github.com/nikborzunov/flowtime-timer.git
+   cd flowtime-timer
+   npm install
+   ```
+2. Set your Telegram bot token in your environment:
+   ```bash
+   export FLOWTIME_BOT_TOKEN="your-telegram-bot-token-from-BotFather"
+   ```
+3. Start the bot:
+   ```bash
+   npm start
+   ```
 
-These states are clearly defined with their entry (`onEnter`) and exit (`onExit`) actions.
+## Available Commands
 
-### Code Implementation
+| Command  | Description                                    |
+| -------- | ---------------------------------------------- |
+| `start`  | Begins a work session                          |
+| `end`    | Ends the current work session and schedules a rest break |
+| `idle`   | Pauses the session and enters idle mode        |
+| `status` | Displays an ASCII-style chart of today's productivity |
+| `reset`  | Clears all daily statistics                    |
 
-The FSM pattern implementation here is minimalistic, robust, and efficient, designed from scratch without external libraries, properly utilizing modern ES features:
+## Contact
 
-- Explicit State Definitions  
-- Defined State Transitions  
-- Entry and Exit callbacks for each state
-
-### Advantages of FSM usage here:
-
-- Robust logic implementation
-- Clear state visualization
-- Less bug-prone
-- Easy to test & extend
-
-## 📦 Technologies & Dependencies
-
-- **TypeScript**
-- **Telegram Bot API**
-- **Moment & moment-duration-format** (time handling and formatting)
-- **LocalStorage** (persistent data storage)
-- **tcharts.js** (data visualization in Telegram via ASCII)
-
-## 🛠️ Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/nikborzunov/flowtime-timer.git
-cd flowtime-timer 
-npm install
-```
-
-2. Set your Telegram bot token in environment variables:
-```bash
-export FLOWTIME_BOT_TOKEN='your-telegram-bot-token-from-BotFather'
-```
-
-3. Start bot:
-```bash
-npm start
-```
-
-## 🚩 Bot Commands (Messages):
-
-| Command | What it does |
-| ------- | ------------ |
-| `start` | Starts a work session ⏳ |
-| `end`   | Ends work session, calculates earned rest 💤 |
-| `idle`  | Pauses timers, goes into idle mode 🛑 |
-| `status`| Provides an ASCII-style chart of today’s productivity statistics 📊 |
-| `reset` | Clears your daily statistics 🚾 |
-
-## 📞 Contact
-
-📩 **Telegram:** [@kupilulitku](https://t.me/kupilulitku)
-
-Have feedback, feature requests, or questions? Feel free to reach out and discuss your productivity ideas directly!
+For feedback, feature requests, or questions, reach out on Telegram: [@kupilulitku](https://t.me/kupilulitku).
 
 ---
 
-Made with ❤️ and 🍵 by **nikborzunov**, productivity enthusiast and software architect.
-```
+Made with ❤️ and 🍵 by **nikborzunov**
